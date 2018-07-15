@@ -43,5 +43,8 @@ export class AppComponent {
       this._statusBar.styleDefault();
       this._splashScreen.hide();
     });
+
+    this._storage.ready().then(() => {
+    });
   }
 }

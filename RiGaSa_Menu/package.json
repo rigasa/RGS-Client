@@ -13,6 +13,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/schematics": "^0.6.8",
     "@angular/common": "6.0.7",
     "@angular/core": "6.0.7",
     "@angular/forms": "6.0.7",
@@ -37,8 +38,7 @@
   "devDependencies": {
     "@angular-devkit/architect": "^0.7.0-rc.0",
     "@angular-devkit/build-angular": "^0.7.0-rc.0",
-    "@angular-devkit/core": "^0.7.0-rc.0",
-    "@angular-devkit/schematics": "^0.7.0-rc.0",
+    "@angular-devkit/core": "^0.7.0-rc.2",
     "@angular/cli": "6.0.8",
     "@angular/compiler": "6.0.7",
     "@angular/compiler-cli": "6.0.7",
