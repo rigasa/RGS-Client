@@ -5,6 +5,7 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
 import { MapPage } from './map.page';
+import { GoogleMapsComponent } from '../../components/google-maps/google-maps.component';
 
 @NgModule({
   imports: [
@@ -18,6 +19,6 @@ import { MapPage } from './map.page';
       }
     ])
   ],
-  declarations: [MapPage]
+  declarations: [MapPage, GoogleMapsComponent]
 })
 export class MapPageModule {}
